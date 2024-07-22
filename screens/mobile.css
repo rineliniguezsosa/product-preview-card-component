@@ -25,10 +25,10 @@
         border:1px yellow solid;
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 700;
+        font-weight: 500;
         font-style: normal;
         color: hsl(228, 12%, 48%);
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         letter-spacing: 0.3rem;
         margin-bottom: 10px;
     } 
