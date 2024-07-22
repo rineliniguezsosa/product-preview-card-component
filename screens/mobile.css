@@ -7,17 +7,42 @@
         width: 100%;
         border:2px green solid;
         overflow: hidden;
+        border-radius: 10px;
     }
 
     .product-card img {
         width: 100%;
-        height: 200px;
+        height: auto;
     }
 
     .product-description {
         padding: 20px;
         border:1px brown solid;
         box-sizing: border-box;
+    }
+
+    .product-description h2 {
+        border:1px yellow solid;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(228, 12%, 48%);
+        font-size: 0.9rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 10px;
+    } 
+
+    .product-description h1 {
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.875rem;
+        margin-bottom: 10px;
+        font-variation-settings:
+            "SOFT" 0,
+            "WONK" 0;
     }
 
     .add-to-cart {
