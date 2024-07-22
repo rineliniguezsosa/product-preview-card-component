@@ -56,6 +56,26 @@
         border:1px green solid;
     }
 
+    .product-price-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px red solid;
+        margin-bottom: 20px;
+    }
+
+    .product-price {
+        color: hsl(158, 36%, 37%);
+        font-family: "Fraunces", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        font-variation-settings:
+            "SOFT" 0,
+            "WONK" 0;
+    }
+
     .add-to-cart {
         display: flex;
         align-items: center;
