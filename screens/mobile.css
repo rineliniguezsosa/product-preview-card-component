@@ -62,7 +62,6 @@
     .product-price-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         border: 1px red solid;
         margin-bottom: 20px;
     }
@@ -80,15 +79,14 @@
     }
 
     .product-old-price {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
+        text-decoration: line-through;
         color: hsl(228, 12%, 48%);
-        text-underline-offset: 2px; 
         font-family: "Fraunces", serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
         font-size: 0.9rem;
+        margin-left: 1rem;
         font-variation-settings:
             "SOFT" 0,
             "WONK" 0;
@@ -98,12 +96,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10px 20px;
+        width: 100%;
+        padding: 15px;
         cursor: pointer;
         border: none;
         background-color: hsl(158, 36%, 37%);
         color: hsl(0, 0%, 100%);
         border-radius: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.8rem;
     }
 
     .add-to-cart img {
