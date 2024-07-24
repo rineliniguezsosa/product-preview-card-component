@@ -15,6 +15,14 @@
         padding: 30px;
     }
 
+    .add-to-cart {
+        transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+        background-color: #194031;
+    }
+
     .product-image {
         content: url('../images/image-product-desktop.jpg');
     }
