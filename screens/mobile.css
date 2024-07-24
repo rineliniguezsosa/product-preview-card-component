@@ -1,4 +1,15 @@
-@media (max-width:375px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        border:1px red solid;
+        height: 100%;
+    }
+
     main {
         padding: 10px;
         background-color: hsl(30, 38%, 92%) ;
@@ -116,4 +127,3 @@
     .attribution{
         display: none;
     }
-}
