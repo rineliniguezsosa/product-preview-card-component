@@ -12,9 +12,11 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Requirements](#requirements)
+- [Install](#install)
+- [Deployment](#deployment)
+
 
 
 ## Overview
@@ -81,7 +83,7 @@ Follow these steps to download and run the project locally
   Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/rineliniguezsosa/social-links-profile.git
+   git clone https://github.com/rineliniguezsosa/product-preview-card-component.git
    ```
 
 2.- **Navigate to the project directory:**
