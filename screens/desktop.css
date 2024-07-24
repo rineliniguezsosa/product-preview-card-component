@@ -12,7 +12,27 @@
     }
 
     .product-card {
-        border:6px red solid;
+        display: flex;
+        /* border:6px red solid; */
+        max-width: 600px;
+    }
+
+    .product-card img {
         width: 50%;
+        height: auto;
+    }
+
+    .product-description {
+        width: 50%;
+        border:1px red solid;
+        padding: 30px;
+    }
+
+    .add-to-card {
+        padding: 5%;
+    }
+
+    .product-image {
+        content: url('../images/image-product-desktop.jpg');
     }
 }
