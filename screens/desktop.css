@@ -1,16 +1,5 @@
 @media (min-width:1440px) {
 
-    html,body {
-        border:2px blue solid;
-        height: 100%;
-    }
-
-    main {
-        border:4px cadetblue solid;
-        height: 100%;
-        padding: 20px;
-    }
-
     .product-card {
         display: flex;
         max-width: 600px;
