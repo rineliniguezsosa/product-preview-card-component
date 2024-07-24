@@ -13,7 +13,6 @@
 
     .product-card {
         display: flex;
-        /* border:6px red solid; */
         max-width: 600px;
     }
 
@@ -24,12 +23,7 @@
 
     .product-description {
         width: 50%;
-        border:1px red solid;
         padding: 30px;
-    }
-
-    .add-to-card {
-        padding: 5%;
     }
 
     .product-image {
